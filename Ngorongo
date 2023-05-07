@@ -1,0 +1,35 @@
+cd C:\Users\Administrator\Documents\NetBeansProjects\NgorongoMeetUp; "JAVA_HOME=C:\\Program Files\\Java\\jdk-20" cmd /c "\"C:\\Program Files\\NetBeans-15\\netbeans\\java\\maven\\bin\\mvn.cmd\" \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-15\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" install"
+Scanning for projects...
+
+--------------------< com.mycompany:NgorongoMeetUp >--------------------
+Building NgorongoMeetUp 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- maven-resources-plugin:2.6:resources (default-resources) @ NgorongoMeetUp ---
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory C:\Users\Administrator\Documents\NetBeansProjects\NgorongoMeetUp\src\main\resources
+
+--- maven-compiler-plugin:3.1:compile (default-compile) @ NgorongoMeetUp ---
+Nothing to compile - all classes are up to date
+
+--- maven-resources-plugin:2.6:testResources (default-testResources) @ NgorongoMeetUp ---
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory C:\Users\Administrator\Documents\NetBeansProjects\NgorongoMeetUp\src\test\resources
+
+--- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ NgorongoMeetUp ---
+Nothing to compile - all classes are up to date
+
+--- maven-surefire-plugin:2.12.4:test (default-test) @ NgorongoMeetUp ---
+
+--- maven-jar-plugin:2.4:jar (default-jar) @ NgorongoMeetUp ---
+Building jar: C:\Users\Administrator\Documents\NetBeansProjects\NgorongoMeetUp\target\NgorongoMeetUp-1.0-SNAPSHOT.jar
+
+--- maven-install-plugin:2.4:install (default-install) @ NgorongoMeetUp ---
+Installing C:\Users\Administrator\Documents\NetBeansProjects\NgorongoMeetUp\target\NgorongoMeetUp-1.0-SNAPSHOT.jar to C:\Users\Administrator\.m2\repository\com\mycompany\NgorongoMeetUp\1.0-SNAPSHOT\NgorongoMeetUp-1.0-SNAPSHOT.jar
+Installing C:\Users\Administrator\Documents\NetBeansProjects\NgorongoMeetUp\pom.xml to C:\Users\Administrator\.m2\repository\com\mycompany\NgorongoMeetUp\1.0-SNAPSHOT\NgorongoMeetUp-1.0-SNAPSHOT.pom
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  1.883 s
+Finished at: 2023-05-06T14:18:16+03:00
+------------------------------------------------------------------------
